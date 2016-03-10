@@ -1,0 +1,53 @@
+#title {
+    font-style: italic;
+}
+#map {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+#content:before {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    min-width: 200px;
+    width: 70%;
+    margin: auto;
+}
+.quote-text {
+    min-height: 100px;
+    padding-top: 100px;
+    margin: auto;
+    font-size: 170%;
+}
+#attribution {
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 80px;
+}
+
+/* TODO how to make this work without hack...? */
+
+#newQuote {
+    right: 50px;
+}
+.btn {
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    margin: 10px;
+    margin-top: 20px;
+}
